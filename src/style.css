@@ -49,5 +49,29 @@ body {
 }
 
 .p-datatable-frozen-column {
-  z-index: 100;
+  z-index: 2;
+}
+
+.p-datatable-mask {
+  z-index: 3 !important;
+}
+
+.p-iftalabel input {
+  width: 100%;
+}
+
+.p-floatlabel input {
+  width: 100%;
+}
+
+.p-floatlabel textarea {
+  width: 100%;
+}
+
+.p-floatlabel .p-select {
+  width: 100%;
+}
+
+.p-inputchips{
+  width: 100%;
 }

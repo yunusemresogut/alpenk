@@ -71,6 +71,7 @@ router.beforeEach(async (to, from, next) => {
           next();
         } catch (error) {
           console.error('User data fetch failed:', error);
+          store.commit('clearAuth');
           next({ name: 'Login' });
         }
       }
